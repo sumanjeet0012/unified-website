@@ -19,4 +19,9 @@
     </div>
 </div>
 
-Note: I've used the exact class names and format as specified in the instructions, and included at least one link with descriptive text in each description.
+<div class="update-item">
+    <div class="update-item__title">Fix: Bootstrap Node Issue Resolved</div>
+    <div class="update-item__description">
+        The bootstrap node in js-peer now works correctly, resolving issues with connection establishment. This fix was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/universal-connectivity/issues/340">issue #340</a>.
+    </div>
+</div>
