@@ -6,6 +6,13 @@
 </div>
 
 <div class="update-item">
+    <div class="update-item__title">New Transport Interop Runner Changed Test Spec</div>
+    <div class="update-item__description">
+        The new transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
+    </div>
+</div>
+
+<div class="update-item">
     <div class="update-item__title">Fix: Remove Redundant EventLoopGroup Handling</div>
     <div class="update-item__description">
         The swift-libp2p implementation removed redundant event loop group handling, improving performance. This fix was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/44">PR #44</a>.
@@ -20,17 +27,15 @@
 </div>
 
 <div class="update-item">
-    <div class="update-item__title">Fix: Improve Transport Interop Runner Test Spec</div>
+    <div class="update-item__title">New Transport Layer Support Added for Swift</div>
     <div class="update-item__description">
-        The new transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
+        The swift-libp2p implementation now supports WebTransport connections, enabling better browser compatibility. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/45">PR #45</a> and follows the spec discussion in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/specs/issues/568">specs#568</a>.
     </div>
 </div>
 
 <div class="update-item">
-    <div class="update-item__title">New Transport Interop Runner Changed Test Spec</div>
+    <div class="update-item__title">Fix: Remove Temporary Logging for Python Tests</div>
     <div class="update-item__description">
-        The new transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
+        The libp2p test plans now remove temporary logging, improving performance. This fix was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/799">PR #799</a>.
     </div>
 </div>
-
-Note: These updates are based on the provided activity data, but may not reflect the actual changes or discussions that occurred in the past 7 days.
