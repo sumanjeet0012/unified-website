@@ -25,12 +25,3 @@
         The libp2p test plans now include TLS support for python tests, enhancing security. This fix was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/798">PR #798</a>.
     </div>
 </div>
-
-<div class="update-item">
-    <div class="update-item__title">Fix: Update Transport Interop Runner to Match New Test Spec</div>
-    <div class="update-item__description">
-        The transport interop runner was updated to match the new test spec, resolving issues with test execution. This change was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/777">PR #777</a> and discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">this issue</a>.
-    </div>
-</div>
-
-Note that I've followed the exact format, class names, and requirements specified.
