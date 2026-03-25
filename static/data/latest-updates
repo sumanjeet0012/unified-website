@@ -6,13 +6,6 @@
 </div>
 
 <div class="update-item">
-    <div class="update-item__title">New Transport Interop Runner Changed Test Spec</div>
-    <div class="update-item__description">
-        The new transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
-    </div>
-</div>
-
-<div class="update-item">
     <div class="update-item__title">Fix: Remove Redundant EventLoopGroup Handling</div>
     <div class="update-item__description">
         The swift-libp2p implementation removed redundant event loop group handling, improving performance. This fix was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/44">PR #44</a>.
@@ -27,10 +20,15 @@
 </div>
 
 <div class="update-item">
-    <div class="update-item__title">Fix: Update Transport Interop Runner to New Test Spec</div>
+    <div class="update-item__title">Issue: Transport Interop Runner Changed Test Spec</div>
     <div class="update-item__description">
-        The transport interop runner was updated to match the new test spec, resolving issues with test execution. This change was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/777">PR #777</a> and discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">this issue</a>.
+        The new transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
     </div>
 </div>
 
-Note: The above output is based on the provided activity data, but it's not clear which specific changes or issues are most notable. If you provide more context or clarify what you're looking for, I can try to adjust the output accordingly.
+<div class="update-item">
+    <div class="update-item__title">Issue: Fixing Temporary Logging in Swift-libp2p</div>
+    <div class="update-item__description">
+        The swift-libp2p implementation now removes temporary logging, improving performance. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/issues/42">this issue</a> and resolved with the removal of redundant event loop group handling.
+    </div>
+</div>
