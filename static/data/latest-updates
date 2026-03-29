@@ -19,4 +19,9 @@
     </div>
 </div>
 
-Note: These summaries are based on the activity data provided, and may not be exhaustive or entirely accurate.
+<div class="update-item">
+    <div class="update-item__title">Fix: Add TLS Support for Python Tests</div>
+    <div class="update-item__description">
+        The libp2p test plans now include TLS support for python tests, enhancing security. This fix was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/798">PR #798</a>.
+    </div>
+</div>
