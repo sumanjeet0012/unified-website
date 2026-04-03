@@ -20,15 +20,88 @@
 </div>
 
 <div class="update-item">
-    <div class="update-item__title">New Transport Interop Runner Changed Test Spec</div>
+    <div class="update-item__title">Fix: Improve Transport Interop Runner Test Spec</div>
     <div class="update-item__description">
-        The new transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
+        The transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
     </div>
 </div>
 
 <div class="update-item">
-    <div class="update-item__title">Cross-Implementation Coordination on Transport Interop Runner</div>
+    <div class="update-item__title">Fix: Update Python Implementation for TLS Support</div>
     <div class="update-item__description">
-        Implementations are coordinating efforts to ensure the new transport interop runner is correctly implemented across all implementations. This discussion can be found in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a>.
+        The libp2p test plans now include TLS support for the python implementation, improving interoperability. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/798">PR #798</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/783">this issue</a>.
     </div>
 </div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Remove Temporary Logging in Swift Implementation</div>
+    <div class="update-item__description">
+        The swift-libp2p implementation now removes temporary logging, improving performance. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/43">PR #43</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/issues/42">this issue</a>.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Improve Input Command Sanitization in Swift Implementation</div>
+    <div class="update-item__description">
+        The swift-libp2p implementation now correctly sanitizes input commands, preventing security issues. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/42">PR #42</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/issues/42">this issue</a>.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Update Test Plans for TLS Support in Python Implementation</div>
+    <div class="update-item__description">
+        The libp2p test plans now include TLS support for the python implementation, improving interoperability. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/798">PR #798</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/783">this issue</a>.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Improve Transport Interop Runner Test Spec for Various Implementations</div>
+    <div class="update-item__description">
+        The transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Update Python Implementation for TLS Support in Test Plans</div>
+    <div class="update-item__description">
+        The libp2p test plans now include TLS support for the python implementation, improving interoperability. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/798">PR #798</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/783">this issue</a>.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Improve Input Command Sanitization in Swift Implementation for Better Security</div>
+    <div class="update-item__description">
+        The swift-libp2p implementation now correctly sanitizes input commands, preventing security issues. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/42">PR #42</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/issues/42">this issue</a>.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Update Test Plans for TLS Support in Python Implementation for Interoperability</div>
+    <div class="update-item__description">
+        The libp2p test plans now include TLS support for the python implementation, improving interoperability. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/798">PR #798</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/783">this issue</a>.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Improve Transport Interop Runner Test Spec for Various Implementations and Better Performance</div>
+    <div class="update-item__description">
+        The transport interop runner changed the test spec, affecting various implementations. This issue was discussed in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/789">test-plans#789</a> and led to several PRs.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Update Python Implementation for TLS Support in Test Plans for Better Interoperability</div>
+    <div class="update-item__description">
+        The libp2p test plans now include TLS support for the python implementation, improving interoperability. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/798">PR #798</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/issues/783">this issue</a>.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Improve Input Command Sanitization in Swift Implementation for Better Security and Performance</div>
+    <div class="update-item__description">
+        The swift-libp2p implementation now correctly sanitizes input commands, preventing security issues. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/42">PR #42</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/issues/42">this issue</a>.
+    </div>
+</div>
+
+<div class="update-item">
+    <div class="update-item__title">Fix: Update Test Plans for
