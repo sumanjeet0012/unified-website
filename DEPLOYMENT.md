@@ -84,12 +84,14 @@ cd unified-website
 ```bash
 # Pull the Zola Docker image and build the site
 # -v maps host folder to /project inside container
+# -w sets working directory so Zola finds config.toml
 # Zola outputs to /project/public = /home/ubuntu/unified-website/public on host
 
 docker run --rm \
   -v /home/ubuntu/unified-website:/project \
+  -w /project \
   ghcr.io/getzola/zola:v0.22.1 \
-  zola build
+  build
 ```
 
 Expected output:
@@ -255,8 +257,9 @@ git pull origin main
 # 2. Rebuild with Zola
 docker run --rm \
   -v /home/ubuntu/unified-website:/project \
+  -w /project \
   ghcr.io/getzola/zola:v0.22.1 \
-  zola build
+  build
 
 # 3. Fix permissions (ALWAYS do this after build!)
 sudo chown -R www-data:www-data /home/ubuntu/unified-website/
@@ -290,8 +293,9 @@ git pull origin main
 echo "Building site with Zola..."
 docker run --rm \
   -v /home/ubuntu/unified-website:/project \
+  -w /project \
   ghcr.io/getzola/zola:v0.22.1 \
-  zola build
+  build
 
 echo "Fixing permissions..."
 sudo chown -R www-data:www-data /home/ubuntu/unified-website/
@@ -462,12 +466,15 @@ sudo systemctl restart nginx
 
 ### Zola build fails
 
+**Common error**: `zola.toml (or config.toml) not found` — missing `-w /project` flag
+
 ```bash
 # Run with verbose output to see errors
 docker run --rm \
   -v /home/ubuntu/unified-website:/project \
+  -w /project \
   ghcr.io/getzola/zola:v0.22.1 \
-  zola build
+  build
 
 # Check config.toml for syntax errors
 cat /home/ubuntu/unified-website/config.toml
